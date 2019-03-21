@@ -3,7 +3,7 @@
 > A simple tool to preview your responsive applications, websites in a fancy design inspired by [chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/device-mode/).
 
 # Demo
- > [Demo App](/demo)
+ > [Demo App](https://responsive-previewer.firebaseapp.com/)
 
 # Usage
 

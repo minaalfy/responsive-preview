@@ -5,6 +5,9 @@
 # Demo
  > [Demo App](/build)
 
+# Documentation
+ > [Documentation](https://responsive-previewer.firebaseapp.com/docs)
+
 # Usage
 
 > Just add the CSS file and JS file
