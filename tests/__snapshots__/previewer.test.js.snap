@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar render elements Previewer should match snapshot 1`] = `
+RenderContext {
+  "0": T {
+    "attributes": Object {
+      "app": "../app.html",
+    },
+    "children": Array [],
+    "key": undefined,
+    "nodeName": [Function],
+  },
+  "length": 1,
+}
+`;

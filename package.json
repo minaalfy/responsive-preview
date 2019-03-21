@@ -1,0 +1,56 @@
+{
+  "name": "responsive-previewer",
+  "version": "1.0.0",
+  "description": "tool to preview responsive apps and websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "parcel src/index.html src/app.html --no-source-maps --open",
+    "build": "parcel build --out-dir build --no-source-maps src/index.html src/app.html"
+  },
+  "keywords": [
+    "responsive",
+    "website",
+    "webapp",
+    "mobile",
+    "first",
+    "mediaquery"
+  ],
+  "author": "minaalfy@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.1",
+    "babel-jest": "^24.5.0",
+    "cssnano": "^4.1.10",
+    "jest": "^24.5.0",
+    "preact-render-spy": "^1.3.0"
+  },
+  "dependencies": {
+    "Devices.css": "git+https://github.com/marvelapp/devices.css.git",
+    "preact": "^8.4.2",
+    "preact-custom-scrollbars": "^4.0.4",
+    "preact-habitat": "^3.2.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testRegex": "(/(__tests__|tests)/.*|(\\.|/)(test|spec))\\.jsx?$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/tests/__mocks__/*"
+    ],
+    "testURL": "http://localhost:8080",
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "moduleNameMapper": {
+      "^preact$": "<rootDir>/node_modules/preact/dist/preact.min.js"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar render elements Device should match snapshot 1`] = `
+RenderContext {
+  "0": T {
+    "attributes": Object {
+      "color": " ",
+      "device": "macbook",
+      "frame": "../app.html",
+      "frameHeightCalc": [Function],
+      "landscape": false,
+      "showDevice": true,
+      "updateParent": [Function],
+      "zoom": 100,
+    },
+    "children": Array [],
+    "key": undefined,
+    "nodeName": [Function],
+  },
+  "length": 1,
+}
+`;
