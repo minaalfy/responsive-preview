@@ -15,6 +15,7 @@ body {
 
 input {
   max-width: 5ch;
+  text-align: center;
 }
 
 header {
@@ -75,7 +76,7 @@ iframe {
 }
 
 .marvel-device.no-device {
-  padding: 0;
+  padding: 0 !important;
   box-sizing: border-box !important;
   border: none !important;
   background: #fafafa !important;

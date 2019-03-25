@@ -1,4 +1,13 @@
-/dist
-/.cache
-/node_modules
-/build
+dist
+.cache
+# Dependency directories
+node_modules
+# npm package lock
+package-lock.json
+# Optional npm cache directory
+.npm
+.DS_Store
+.firebasesrc
+.firebase
+firebase.json
+.npmignore
