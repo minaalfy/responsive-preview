@@ -1,6 +1,6 @@
 {
-  "name": "responsive-previewer",
-  "version": "1.0.0",
+  "name": "responsive-preview",
+  "version": "1.0.1",
   "description": "tool to preview responsive apps and websites",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,8 @@
   },
   "files": [
     "lib",
-    "src"
+    "src",
+    "build"
   ],
   "repository": {
     "type": "git",
@@ -32,7 +33,7 @@
   "license": "ISC",
   "preferGlobal": true,
   "bin": {
-    "responsive-preview": "./index.js"
+    "responsive-preview": "./lib/index.js"
   },
   "dependencies": {
     "Devices.css": "git+https://github.com/marvelapp/devices.css.git",
